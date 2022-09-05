@@ -254,6 +254,7 @@ body {
 .main_content {
     position: absolute;
     width: calc(100% - 78px);
+    height: 100vh;
     top: 0;
     left: 78px;
     transition: all 0.4s ease;
@@ -264,6 +265,29 @@ body {
 .main-content-active {
     left: 240px;
     width: calc(100% - 240px);
+}
+
+.normalStatistic{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+    transition: all 0.4s;
+}
+
+.normalStatistic .n_box{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 80px;
+    box-shadow: 10px 10px 118px 19px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    transition: all 0.4s;
 }
 
 .graphBox {
@@ -283,9 +307,9 @@ body {
     display: grid;
     place-items: center;
     padding: 20px;
-    width: 450px;
-    height: 450px;
-    box-shadow: -12px -14px 90px 2px rgba(0, 0, 0, 0.50);
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 118px 19px rgba(0,0,0,0.75);
     border-radius: 20px;
     transition: all 0.4s;
 }
