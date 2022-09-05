@@ -1,0 +1,22 @@
+{
+  "name": "proyect1",
+  "version": "1.0.0",
+  "description": "Cumplimiento de Responsabilidades",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "electron ."
+  },
+  "author": "KloutDevs",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "ansi-styles": "^6.1.0",
+    "chart.js": "^3.9.1",
+    "electron": "^20.1.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "mongoose": "^6.5.4",
+    "mysql": "^2.18.1",
+    "winston": "^3.8.1"
+  }
+}
