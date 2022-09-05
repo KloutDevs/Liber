@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Cumplimiento de Responsabilidades</title>
+    <link rel="icon" type="image/png" href="../public/img/icon.png"/>
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="../public/css/animate.min.css">
+</head>
+<body class="text-center">
+    <div class="bar drag titleBar">
+        <div class="right-btns">
+            <div class="no-drag pointer titlebar-btn" id="btn-minimize"> <i class="material-icons tiny" title="Settings">remove</i> </div>
+            <div class="no-drag pointer titlebar-btn" id="btn-close"> <i class="material-icons tiny" title="Close">close</i> </div>
+        </div>
+    </div>
+    <main class="form-signin w-100 m-auto">
+        <form name="login">
+            <img class="mb-4" src="../public/img/icon.png" alt="App Icon" width="128px" height="128px">
+            <h1 class="h3 mb-3 fw-normal">Inicia sesión </h1>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Username or e-mail" name="account">
+                <label for="floatingInput">Nombre de usuario</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña" name="clave">
+                <label for="floatingPassword">Contraseña</label>
+            </div>
+            <button class="logInBtn w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
+            <div class="checkbox mb-3">
+                <label class="pointer">
+                    <input class="pointer" type="checkbox" value="recordarme">
+                      Recuérdame  
+                </label w-100 btn btn-lg btn-primary >
+            </div>
+        </form>
+    </main>
+    <div class="no-drag pointer configBtn"> <i class="material-icons tiny" title="Settings">settings</i> </div>
+    <svg class="top-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L240,64L480,64L720,32L960,160L1200,224L1440,32L1440,0L1200,0L960,0L720,0L480,0L240,0L0,0Z"></path></svg>
+    <script src="../public/js/events.js"></script>
+    <script src="../public/js/anime.min.js"></script>
+</body>
+</html>
