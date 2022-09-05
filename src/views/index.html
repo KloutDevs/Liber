@@ -76,22 +76,29 @@
   <div class="main_content main-content-active">
     <div id="general">
 
-    </div>
-    <div class="graphBox">
-      <div class="box progress">
-        <div class="circular-progress">
-          <div class="value-container">80%</div>
+      <div class="normalStatistic">
+        <div class="n_box">Tareas realizadas <span>0</span></div>
+        <div class="n_box">Tareas pendientes <span>0</span></div>
+        <div class="n_box">Tareas omitidas <span>0</span></div>
+      </div>
+
+      <div class="graphBox">
+        <div class="box progress">
+          <div class="circular-progress">
+            <div class="value-container">80%</div>
+          </div>
+        </div>
+        <div class="box normal">
+          <canvas id="normal" width="100" height="100"></canvas>
+        </div>
+        <div class="box pieChart">
+          <canvas id="pieChart" width="100" height="100"></canvas>
         </div>
       </div>
-      <div class="box normal">
-        <canvas id="normal" width="100" height="100"></canvas>
-      </div>
-      <div class="box pieChart">
-        <canvas id="pieChart" width="100" height="100"></canvas>
-      </div>
+      <div class="taskList"></div>
     </div>
   </div>
   <script src="../public/js/main.js"></script>
-
+  
 </body>
 </html>
